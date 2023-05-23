@@ -1,0 +1,107 @@
+/* your styles go here */
+
+table {
+    border-spacing: 10px!important;
+    border-collapse: separate!important;
+}
+
+.sidebar-content {
+  height: 100%;
+}
+
+@media only screen and (max-height: 340px) {
+  #sidebar-social {
+    visibility: collapse;
+  }
+}
+
+@media only screen and (max-height: 580px) {
+  p.social a {
+    margin-right: 5px!important;
+  }
+}
+
+@media only screen and (max-width: 330px) {
+  p.social a {
+    margin-right: 2px!important;
+    margin-bottom: 2px!important;
+  }
+}
+
+
+@media only screen and (max-height: 520px) {
+    .sidebar-profile-picture {
+        width: 0px;
+        height: 0px;
+        visibility: collapse;
+        padding: 0px;
+    }
+    .sidebar-p {
+      height: 0px;
+      visibility: collapse;
+    }
+
+    .copyright {
+      width: 0px;
+      height: 0px;
+      visibility: collapse;
+    }
+
+    #sidebar-social {
+      position: absolute;
+      bottom: 0;
+      /* margin-right: 0.7em; */
+      margin-bottom: 50px;
+    }
+}
+
+
+@media only screen and (max-height: 676px) {
+    .sidebar-p {
+        font-size: 10px!important;
+    }
+  }
+
+@media only screen and (max-height: 746px) {
+    .sidebar-profile-picture {
+        width: 100%;
+    }
+    /* .sidebar-p {
+      height: 0px;
+      visibility: collapse;
+    } */
+
+    .copyright {
+      width: 0px;
+      height: 0px;
+      visibility: collapse;
+    }
+
+    #sidebar-social {
+      position: absolute;
+      bottom: 0;
+      margin-right: 0.7em;
+      margin-bottom: 50px;
+    }
+}
+
+
+
+@media only screen and (max-height: 615px) {
+    .sidebar-profile-picture {
+        width: 80%;
+    }
+  }
+
+.keyword {
+  display: inline-block;
+  padding: 3px 7px 3px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  color: #40baf9;
+  background: #ececec;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: bolder;
+  letter-spacing: 1px;
+}

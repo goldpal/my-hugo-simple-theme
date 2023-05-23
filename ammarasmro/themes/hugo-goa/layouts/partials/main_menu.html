@@ -1,0 +1,7 @@
+<section id="main-menu-pane" class="row justify-content-center text-center main-menu">
+  <ul class="list-unstyled">
+  {{ range sort .Site.Menus.main }}
+  <li><h4><a class="menu-item" href="{{ .URL }}">{{ .Name | lower }}</a></h4></li>
+  {{ end }}
+  </ul>
+</section>
